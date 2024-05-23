@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+ <title>{% block title %}{% endblock %}</title>
+ <link href="{% static 'css/blog.css' %}" rel="stylesheet">
+</head>
+<body>
+ <div id="content">
+ {% block content %}
+ {% endblock %}
+ </div>
+ <div id="sidebar">
+ <h2>D Blogs</h2>
+ <h3>Welcome to DBlog: Your Hub for Daily Inspiration</h3>
+ <p>Discover a world of inspiration and creativity with InspireBlog, your go-to platform for engaging and uplifting content. Whether you're looking for motivational quotes, insightful articles, or personal stories that resonate, InspireBlog has something for everyone. Connect with a community of like-minded individuals, share your thoughts, and explore a diverse range of topics that fuel your passions and ignite your imagination. Start your journey with InspireBlog today and transform your everyday moments into extraordinary experiences.</p>
+ <img class="sideicon" src="{% static 'images/sideicon.png' %}"/>
+ </div>
+</body>
+</html>
