@@ -1,1 +1,1 @@
-# django_by_example
+# Blogs Application
